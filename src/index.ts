@@ -25,6 +25,9 @@ await server.connect(transport)
 // 原有路由
 app.get('/', (c) => c.text('Hello Hono!'))
 
+
+app.get('/hello-world', (c) => c.text('hello world!'))
+
 // MCP Streamable HTTP 端点
 // POST: 接收 JSON-RPC 消息
 // GET: SSE 事件流

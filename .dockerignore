@@ -6,4 +6,3 @@ node_modules
 *.md
 .vscode
 .idea
-bun.lock
